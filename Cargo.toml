@@ -1,0 +1,8 @@
+[package]
+name = "context-err"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "1.0.37"
+context-err-derive = { path = "context-err-derive" }

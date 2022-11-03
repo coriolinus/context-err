@@ -1,0 +1,12 @@
+[package]
+name = "context-err-derive"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+darling = "0.14.2"
+quote = "1.0.21"
+syn = "1.0.103"
